@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @friend.name %>
+</p>
+
+<p>
+  <b>Birthday:</b>
+  <%= @friend.birthday %>
+</p>
+
+<p>
+  <b>Telephone:</b>
+  <%= @friend.telephone %>
+</p>
+
+<p>
+  <b>Mobile:</b>
+  <%= @friend.mobile %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @friend.email %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%= @friend.street %>
+</p>
+
+<p>
+  <b>Postcode:</b>
+  <%= @friend.postcode %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @friend.city %>
+</p>
+
+
+<%= link_to 'Edit', edit_friend_path(@friend) %> |
+<%= link_to 'Back', friends_path %>
